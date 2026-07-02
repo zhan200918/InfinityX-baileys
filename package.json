@@ -1,10 +1,10 @@
 {
-  "name": "@poucode/baileys",
+  "name": "@zhan200918/InfinityX-baileys",
   "type": "module",
   "version": "1.0.0",
-  "description": "A WebSockets library for interacting with WhatsApp Web \u2014 PouCode fork of Baileys",
+  "description": "A WebSockets library for interacting with WhatsApp Web \u2014 ZhanXoffc fork of Baileys",
   "keywords": [
-    "poucode",
+    "zhan200918",
     "baileys",
     "whatsapp",
     "whatsapp-api",
@@ -12,13 +12,13 @@
     "wa-bot",
     "whatsapp bot"
   ],
-  "homepage": "https://github.com/pou-code/Baileys",
+  "homepage": "https://github.com/zhan200918/InfinityX-baileys",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pou-code/Baileys.git"
+    "url": "git+https://github.com//zhan200918/InfinityX-baileys.git"
   },
   "license": "MIT",
-  "author": "PouCode",
+  "author": "ZhanXoffc",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
