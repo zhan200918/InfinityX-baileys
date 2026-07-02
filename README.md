@@ -57,6 +57,13 @@ npm install infinityx-baileys
 npm install github:zhan200918/InfinityX-baileys
 ```
 
+## Package.json
+
+```bash
+"dependencies": { "@whiskeysockets/baileys": "github:zhan200918/InfinityX-baileys",
+"@zhan200918/InfinityX-baileys": "github:zhan200918/InfinityX-baileys"
+```
+
 ---
 
 # 🚀 Quick Start
