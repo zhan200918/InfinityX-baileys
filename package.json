@@ -42,10 +42,14 @@
     "WAProto/**/*",
     "engine-requirements.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build:all": "tsc && typedoc",
     "build:docs": "typedoc",
     "build:tsc": "tsc",
+    "prepublishOnly": "npm run build:tsc && tsc-esm-fix --dir=lib --ext=.js",
     "changelog:last": "conventional-changelog -p angular -r 2",
     "changelog:preview": "conventional-changelog -p angular -u",
     "gen:protobuf": "sh WAProto/GenerateStatics.sh",
